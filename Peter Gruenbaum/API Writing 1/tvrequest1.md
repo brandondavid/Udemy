@@ -33,7 +33,7 @@ Represents a request to record a television program.
     <td>string</td>
     <td>Required, has attribute</td>
     <td><code>format</code> attribute:<ul>
-    <li>valid values: 12, 14</li>
+    <li>valid values: 12, 24</li>
     <li>if "12" (for 12-hour clock), then format is HH:MM AM or HH:MM PM</li>
     <li>if "24" (for 24-hour clock), then format is HH:MM</li></ul></td>
   </tr>
