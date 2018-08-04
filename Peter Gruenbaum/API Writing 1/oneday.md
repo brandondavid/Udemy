@@ -1,6 +1,6 @@
 # oneday.json
 
-Represents the weather forecast for a single day.
+Represents a single-day weather forecast.
 
 **Element** | **Description** | **Type** | **Notes**
 --- | --- | :---: | ---
