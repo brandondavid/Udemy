@@ -1,7 +1,3 @@
-
-
-
-
 ## Exercise 1
 [CreateJSON.pdf](./CreateJSON.pdf)  
 [oneday.json](./oneday.json)  
@@ -23,4 +19,3 @@
 [tvrequest1.md](./tvrequest1.md)  
 [tvrequest2.md](./tvrequest2.md)  
 [sensors.md](./sensors.md)  
-
