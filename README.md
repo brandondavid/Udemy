@@ -6,9 +6,10 @@
 
 [API Documentation 3: The Art of API Documentation](./API%20Documentation%203/README.md)
 
-[Coding for Writers](./Coding%20for%20Writers/README.md) by Peter Gruenbaum
+[Coding for Writers](./Coding%20for%20Writers/README.md)
 
-[Swagger and the Open API Specification](./Swagger%20and%20OAS) by Peter Gruenbaum
+[Swagger and the Open API Specification](./Swagger%20and%20OAS)
+
 
 
 ## Courses by Valentin Despa
