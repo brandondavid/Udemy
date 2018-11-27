@@ -8,4 +8,5 @@
   
   
 ## Courses by Valentin Despa
-[Postman: The Complete Guide to REST API Testing](./Postman%20Complete%20Guide)
+[Postman: Crash Course](./Postman%20Crash%20Course)
+[Postman: The Complete Guide](./Postman%20Complete%20Guide)
