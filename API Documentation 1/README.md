@@ -1,7 +1,7 @@
 # API Documentation 1: JSON and XML
 **Learn API Technical Writing: JSON and XML for Writers**  
 _This is the first in a series of courses for technical writers who want to learn how to write API documentation. This course teaches how to document structured data, focusing on the two most popular structured data formats: JSON and XML. By the end of the course, you will understand what APIs are, why they are important, and how to read and document structured data._  
-[Course Website on Udemy](https://www.udemy.com/api-documentation-1-json-and-xml/)
+[Course Website](https://www.udemy.com/api-documentation-1-json-and-xml/)
 
 ### Exercise 1
 [CreateJSON.pdf](./CreateJSON.pdf)  
