@@ -1,4 +1,4 @@
-#API Documentation 2: REST
+# API Documentation 2: REST
 **API Documentation 2: Teaches technical writers how to document REST.**  
 _This is the second in a series of courses for technical writers who want to learn how to write API documentation. The first course is called "Learn API Technical Writing: JSON and XML for Writers", and it is recommended that you first take that course, unless you are very familiar with JSON and XML, and how to document them.  This course teaches how to document REST APIs. By the end of the course, you will understand what REST is and how to read and document REST requests and responses._  
 [Course Website](https://www.udemy.com/learn-api-technical-writing-2-rest-for-writers/)  
