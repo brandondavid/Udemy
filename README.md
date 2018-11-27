@@ -1,8 +1,11 @@
-## API Documentation 1: JSON and XML
-[API Documentation 1](./API%20Documentation%201/README.md) by Peter Gruenbaum
 
-## API Documentation 2: REST
-[API Documentation 2](./API%20Documentation%202/README.md) by Peter Gruenbaum
+
+
+## Courses by Peter Gruenbaum
+
+[API Documentation 1: JSON and XML](./API%20Documentation%201/README.md)
+
+[API Documentation 2: REST](./API%20Documentation%202/README.md)
 
 ## API Documentation 3: The Art of API Documentation
 [API Documentation 3](./API%20Documentation%203/README.md) by Peter Gruenbaum
