@@ -2,7 +2,7 @@
 
 ## Create a Pet
 **Request**  
-`curl --request POST --header "Content-Type: application/json" --data "{ \"id\": 5656, \"name\": \"Bela Bardog\", \"status\": \"available\" }" http://petstore.swagger.io/v2/pet`  
+`curl --request POST --header "Content-Type: application/json" --data "{ \"id\":5656, \"name\":\"Bela Bardog\", \"status\":\"available\" }" http://petstore.swagger.io/v2/pet`  
 
 **Response**  
 `{"id":5656,"name":"Bela Bardog","photoUrls":[],"tags":[],"status":"available"}`  
