@@ -11,4 +11,8 @@ _This is the third in a series of courses for technical writers who want to lear
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/190d211cb6a382d0ce7d)
 
 ### Exercise 2
-[Exercise-2-cURL.pdf](./Exercise-2-cURL.pdf)  
+[Exercise-2-cURL-NEW.pdf](./Exercise-2-cURL-NEW.pdf) 
+[Exercise-2-cURL-NEW.md](./Exercise-2-cURL-NEW.md)  
+  
+[Exercise-2-cURL-OLD.pdf](./Exercise-2-cURL-OLD.pdf) 
+[Exercise-2-cURL-OLD.md](./Exercise-2-cURL-OLD.md)  
