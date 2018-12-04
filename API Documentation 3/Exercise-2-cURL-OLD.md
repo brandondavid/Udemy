@@ -21,4 +21,4 @@ _/USER ENDPOINT CURRENTLY NOT WORKING_
 `curl --request DELETE http://petstore.swagger.io/v2/user/restexpert`  
 
 **Response**  
-_/USER ENDPOINT CURRENTLY NOT WORKING_
+_no response_
