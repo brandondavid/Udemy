@@ -13,7 +13,7 @@ _/USER ENDPOINT CURRENTLY NOT WORKING_
 `curl --request GET http://petstore.swagger.io/v2/user/restexpert`  
 
 **Response**  
-_/USER ENDPOINT CURRENTLY NOT WORKING_
+`{"id":0,"username":"restexpert","firstName":"Rachel","lastName":"Rest","email":"rachel@example.com","password":"json","phone":"5551212","userStatus":0}`
 
 
 ## Delete the User
