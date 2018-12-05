@@ -35,3 +35,7 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 <!---
 ![](http://online.swagger.io/validator?url=http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-5-Documentation.yml)
 -->
+
+### Exercise 6
+[Exercise-6-SwaggerHub.pdf](./Exercise-6-SwaggerHub.pdf) 
+[Exercise-6-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/music-api/0.3.0)
