@@ -17,12 +17,21 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 
 ### Exercise 3
 [Exercise-3-Schemas.pdf](./Exercise-3-Schemas.pdf)  
-[Exercise-3-Schemas.yml](./Exercise-3-Schemas.yml)  <img src="http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-3-Schemas.yml">
+[Exercise-3-Schemas.yml](./Exercise-3-Schemas.yml)
+<!---
+![](http://online.swagger.io/validator?url=http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-3-Schemas.yml)
+-->
 
 ### Exercise 4
 [Exercise-4-OpenAPI-Cont.pdf](./Exercise-4-OpenAPI-Cont.pdf)  
-[Exercise-4-OpenAPI-Cont.yml](./Exercise-4-OpenAPI-Cont.yml)  <img src="http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-4-OpenAPI-Cont.yml">
+[Exercise-4-OpenAPI-Cont.yml](./Exercise-4-OpenAPI-Cont.yml)
+<!---
+![](http://online.swagger.io/validator?url=http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-4-OpenAPI-Cont.yml)
+-->
 
 ### Exercise 5
 [Exercise-5-Documentation.pdf](./Exercise-5-Documentation.pdf)  
-[Exercise-5-Documentation.yml](./Exercise-5-Documentation.yml)  <img src="http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-5-Documentation.yml">
+[Exercise-5-Documentation.yml](./Exercise-5-Documentation.yml)
+<!---
+![](http://online.swagger.io/validator?url=http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-5-Documentation.yml)
+-->
