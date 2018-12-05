@@ -42,6 +42,7 @@ paths:
         # Response code
         200:
           description: Successful response
+
     # Create a new playlist
     post:
       # Query parameters
