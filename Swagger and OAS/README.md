@@ -10,9 +10,10 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 
 ### Exercise 2
 [Exercise-2-OAS-Basics.pdf](./Exercise-2-OAS-Basics.pdf)  
-[Exercise-2-OAS-Basics.yml](./Exercise-2-OAS-Basics.yml)  <img src="http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-2-OAS-Basics.yml">
-
+[Exercise-2-OAS-Basics.yml](./Exercise-2-OAS-Basics.yml) 
+<!---
 ![](http://online.swagger.io/validator?url=https://raw.githubusercontent.com/brandondavid/Udemy/master/Swagger%20and%20OAS/Exercise-2-OAS-Basics.yml)
+-->
 
 ### Exercise 3
 [Exercise-3-Schemas.pdf](./Exercise-3-Schemas.pdf)  
