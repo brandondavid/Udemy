@@ -1,0 +1,190 @@
+swagger: '2.0'
+
+# Document metadata
+info:
+  version: '0.3.0'
+  title: Music API
+  description: '**Music API with playlists**'
+
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes: 
+  - https
+  
+consumes:
+  - application/json
+produces:
+ - application/json
+  
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    get:
+      description: '**Return one or more playlists.**'
+      operationId: getPlaylist
+      parameters: 
+        - name: limit
+          description: Number of playlists to return
+          in: query
+          required: false
+          type: integer
+        
+        - name: offset
+          description: Number of playlists to skip
+          in: query
+          required: false
+          type: integer
+        
+        - name: search
+          description: Search term
+          in: query
+          required: false
+          type: string
+      
+      # Basic auth security
+      security:
+        - basicAuth: []
+      
+      responses:
+        200:
+          description: Successful response
+
+    post:
+      description: '**Create a new playlist.**'
+      operationId: postPlaylist
+      parameters:
+        - name: newPlaylist
+          description: The playlist to create
+          in: body
+          required: true
+          schema: 
+            $ref: '#/definitions/newPlaylist'
+      
+      responses:
+        200:
+          description: Successful response
+    
+    
+  # Playlists          
+  /playlist/{playlist-id}: 
+    delete:
+      description: '**Remove a playlist.**'
+      operationId: deletePlaylistId
+      parameters: 
+        - name: playlist-id
+          description: ID of the playlist to remove
+          in: path
+          required: true
+          type: string
+
+      responses:
+        200:
+          description: Successful response
+          
+        410:
+          description: Playlist already deleted
+          schema:
+            $ref: '#/definitions/error'          
+
+    get:
+      description: '**Return a playlist.**'
+      operationId: getPlaylistId
+      parameters: 
+        - name: playlist-id
+          description: ID of the playlist to return
+          in: path
+          required: true
+          type: string
+
+      responses:
+        200:
+          description: Successful response
+          schema:
+            $ref: '#/definitions/playlistWithSongs'
+
+  # Playlist image
+  /playlist/{playlist-id}/image:
+    get:
+      description: '**Returns a generated image for the playlist.**'
+      operationId: getImage
+      parameters: 
+        - name: playlist-id
+          description: ID of the playlist for which to generate an image
+          in: path
+          required: true
+          type: string
+
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: file
+
+      produces:
+        - image/png
+          
+definitions:
+  newPlaylist:
+    description: '**Playlist without song information.**'
+    properties:
+      name:
+        description: Name of the playlist
+        type: string
+      songIds:
+        description: IDs of the songs in the playlist
+        type: array
+        items:
+          type: integer
+    required:
+        - name
+  
+  playlistWithSongs:
+    description: '**Playlist with song information.**'
+    properties:
+      id:
+        description: ID of the playlist
+        type: integer
+      name:
+        description: Name of the playlist
+        type: string
+      songs:
+        description: Song(s) in the playlist
+        type: array
+        items:
+          $ref: '#/definitions/song'
+
+  song:
+    description: '**Song information.**'
+    properties:
+      id: 
+        description: ID of the song
+        type: integer
+      title: 
+        description: Title of the song
+        type: string
+
+  # Errors
+  error:
+    description: '**Error information.**'
+    properties:
+      errorMessage:
+        description: Error message
+        type: string
+      logData:
+        description: Log entry
+        type: object
+        properties:
+          entry:
+            description: ID of log entry
+            type: integer
+          date:
+            description: Date of log entry
+            type: string
+
+# Security
+securityDefinitions:
+  basicAuth:
+    description: 'Username and password'
+    type: basic
