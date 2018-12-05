@@ -9,5 +9,5 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 [Exercise-1-YAML.yml](./Exercise-1-YAML.yml)  
 
 ### Exercise 2
-[Exercise-2-YAML.pdf](./Exercise-2-YAML.pdf)  
-[Exercise-2-YAML.yml](./Exercise-2-YAML.yml)  
+[Exercise-2-OAS-Basics.pdf](./Exercise-2-OAS-Basics.pdf)  
+[Exercise-2-OAS-Basics.yml](./Exercise-2-OAS-Basics.yml)  
