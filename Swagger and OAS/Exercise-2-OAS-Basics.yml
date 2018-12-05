@@ -1,0 +1,59 @@
+swagger: '2.0'
+
+# Document metadata
+info:
+  version: '0.3.0'
+  title: Music API
+
+# URL data
+host: api.muzicplayz.com
+basePath: /v3
+schemes: 
+  - https
+  
+# Endpoints
+paths:
+  # Playlists
+  /playlist:
+    # Get one or more playlists
+    get:
+      # Query parameters
+      parameters: 
+        # Number of playlists to return
+        - name: limit
+          in: query
+          required: false
+          type: integer
+        
+        # Index of the first playlist to return
+        - name: offset
+          in: query
+          required: false
+          type: integer
+        
+        # Return playlists whose name contains this string
+        - name: search
+          in: query
+          required: false
+          type: string
+      
+      # Query response
+      responses:
+        # Response code
+        200:
+          description: Successful response
+
+  # Playlists          
+  /playlist/{playlist-id}: 
+    # Delete a playlist
+    delete:
+      # Query parameters
+      parameters: 
+        - name: playlist-id
+          in: path
+          required: true
+          type: string
+      responses:
+        # Response code
+        200:
+          description: Successful response
