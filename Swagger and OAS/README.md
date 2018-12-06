@@ -38,6 +38,6 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 
 ### Exercise 6
 [Exercise-6-SwaggerHub.pdf](./Exercise-6-SwaggerHub.pdf)  
-[music-api-0.3.0-swagger.yml](./music-api-0.3.0-swagger.yml)  
-[music-api-0.3.0-swagger.json](./music-api-0.3.0-swagger.json)  
+[Exercise-6-music-api-0.3.0-swagger.yml](./Exercise-6-music-api-0.3.0-swagger.yml)  
+[Exercise-6-music-api-0.3.0-swagger.json](./Exercise-6-music-api-0.3.0-swagger.json)  
 [Exercise-6-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/music-api/0.3.0)
