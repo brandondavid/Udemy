@@ -38,14 +38,13 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 
 ### Exercise 6
 [Exercise-6-SwaggerHub.pdf](./Exercise-6-SwaggerHub.pdf)  
-[Exercise-6-music-api-0.3.0-swagger.yml](./Exercise-6-music-api-0.3.0-swagger.yml)  
+[Exercise-6-music-api-0.3.0-swagger.yaml](./Exercise-6-music-api-0.3.0-swagger.yaml)  
 [Exercise-6-music-api-0.3.0-swagger.json](./Exercise-6-music-api-0.3.0-swagger.json)  
 [Exercise-6-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/music-api/0.3.0)
 
 
 ### Exercise 7
-[Exercise-7-SwaggerHub.pdf](./Exercise-7-SwaggerHub.pdf)  
-[Exercise-7-music-api-0.3.0-swagger.yml](./Exercise-7-music-api-0.3.0-swagger.yml)  
-[Exercise-7-music-api-0.3.0-swagger.json](./Exercise-7-music-api-0.3.0-swagger.json)  
-[Exercise-7-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/MemeMeister/0.1.0)
-
+[Exercise-7-Final.pdf](./Exercise-7-Final.pdf)  
+[Exercise-7-music-MemeMeister-0.1.0-swagger.yaml](./Exercise-7-MemeMeister-0.1.0-swagger.yaml)  
+[Exercise-7-music-MemeMeister-0.1.0-swagger.json](./Exercise-7-MemeMeister-0.1.0-swagger.json)  
+[Exercise-7-Final](https://app.swaggerhub.com/apis/xBDL/MemeMeister/0.1.0)
