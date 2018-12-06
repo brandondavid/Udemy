@@ -1,0 +1,152 @@
+swagger: '2.0'
+
+# Metadata
+info:
+  version: '0.1.0'
+  title: Meme Meister
+  description: API to create memes
+
+# URL
+host: dev.mememeister.com
+basePath: /v1
+schemes:
+ - https
+consumes: 
+  - application/json
+produces: 
+  - application/json
+
+# Endpoints
+paths:
+  /meme:
+    post:
+      summary: Post meme
+      description: Create a meme.
+      
+      parameters: 
+        - name: topcaption
+          description: Top caption for meme (URL-encoded string)
+          in: query
+          required: true
+          type: string  #URL-encoded string
+          
+        - name: bottomcaption
+          description: Bottom caption for meme (URL-encoded string)
+          in: query
+          required: true
+          type: string  #URL-encoded string
+        
+        - name: image
+          description: Background image for meme
+          in: formData
+          required: true
+          type: file
+      
+      consumes:
+        - image/jpeg
+        - image/gif
+        - image/png
+        - multipart/form-data
+      produces:
+        - image/jpeg
+
+      security:
+        - oauthFacebook: 
+          - read:memes
+          - write:memes
+
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: file
+            
+    get:
+      summary: Get meme(s)
+      description: Returns one or more memes
+      
+      parameters:
+        - name: q
+          description: Optional URL-encoded search term
+          in: query
+          required: false
+          type: string  #URL-encoded string
+
+      security:
+        - oauthFacebook: 
+          - read:memes
+          
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/memeInfo'
+              
+  /meme/{meme-id}: 
+    get:
+      summary: Get meme by ID
+      description: Return a meme.
+      
+      parameters:
+        - name: meme-id
+          description: ID of meme to return
+          in: path
+          required: true
+          type: integer
+      
+      security:
+        - oauthFacebook:
+          - read:memes
+          
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: file
+            
+    delete:
+      summary: Delete meme by ID
+      description: Remove a meme.
+      
+      parameters:
+        - name: meme-id
+          description: ID of meme to remove
+          in: path
+          required: true
+          type: integer
+      
+      security:
+        - oauthFacebook:
+          - read:memes
+          
+      responses:
+        204:
+          description: Successful response
+
+
+definitions:
+  memeInfo:
+    description: ID and captions of meme
+    properties:
+      id:
+        description: ID of meme
+        type: integer
+      topCaption:
+        description: The text near the top of the image
+        type: string
+      bottomCaption:
+        description: The text near the bottom of the image
+        type: string
+
+
+securityDefinitions:
+  oauthFacebook:
+    type: oauth2
+    authorizationUrl: https://dev.facebook.com/oauth/authenticate 
+    flow: implicit
+    scopes: 
+      write:memes: Modify memes in your account
+      read:memes: Read memes in your account
+    description: Facebook authentication
