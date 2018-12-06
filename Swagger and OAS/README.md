@@ -47,5 +47,5 @@ _The Open API Specification (often called "Swagger") is currently the most popul
 [Exercise-7-SwaggerHub.pdf](./Exercise-7-SwaggerHub.pdf)  
 [Exercise-7-music-api-0.3.0-swagger.yml](./Exercise-7-music-api-0.3.0-swagger.yml)  
 [Exercise-7-music-api-0.3.0-swagger.json](./Exercise-7-music-api-0.3.0-swagger.json)  
-[Exercise-7-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/music-api/0.3.0)
+[Exercise-7-SwaggerHub](https://app.swaggerhub.com/apis/xBDL/MemeMeister/1.0.0)
 
