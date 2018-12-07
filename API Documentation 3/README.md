@@ -8,6 +8,7 @@ _This is the third in a series of courses for technical writers who want to lear
 [Exercise-1-Postman-NEW.pdf](./Exercise-1-Postman-NEW.pdf)   
 [Exercise-1-Postman-OLD.pdf](./Exercise-1-Postman-OLD.pdf)  
 [Postman Collection for Exercise 1](https://www.getpostman.com/collections/190d211cb6a382d0ce7d)  
+[Postman Documentation for Exercise 1](https://documenter.getpostman.com/view/6043858/RzfiG7x3)
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/190d211cb6a382d0ce7d)
 
 ### Exercise 2
